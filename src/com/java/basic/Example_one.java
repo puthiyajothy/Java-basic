@@ -11,6 +11,7 @@ public class Example_one {
 	public static void main(String[] args) {
 
 		Integer a[] = {4,3,1,6,4,3,6,4};
+		@SuppressWarnings("unused")
 		int b[] = {4,5,6,8,9};
 //		int b[][] = new int [a.length][2];
 		
