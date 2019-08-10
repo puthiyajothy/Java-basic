@@ -1,13 +1,13 @@
 package com.java.basic;
 
-class apple implements Runnable {
+class apple implements Runnable  {
 
 	public void run() {
 		int b[] = { 2, 5, 6, 9, 10 };
 
 		for (int i = 0; i < b.length; i++) {
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -20,7 +20,7 @@ class apple implements Runnable {
 
 }
 
-class abc implements Runnable {
+class abc implements Runnable{
 
 	public void run() {
 		int a[] = { 1, 2, 3, 4, 5 };
@@ -56,4 +56,8 @@ public class ThreadInterface {
 
 	}
 
+}
+
+class dev {
+	
 }
