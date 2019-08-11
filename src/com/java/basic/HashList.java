@@ -86,6 +86,13 @@ public class HashList {
 			classList.getName();
 			System.out.println(classList);
 		}
+		
+		System.out.println();
+		
+		Integer givenarray[]= {1,2,1,3,5};
+		List<Integer>cal=new ArrayList<>(Arrays.asList(givenarray));
+		Set<Integer>calarray=new HashSet<>(cal);
+		System.out.print(calarray);
 
 	}
 
