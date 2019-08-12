@@ -1,6 +1,6 @@
 package com.java.basic;
 
-class apple implements Runnable  {
+class apple implements Runnable,dev{
 
 	public void run() {
 		int b[] = { 2, 5, 6, 9, 10 };
@@ -20,7 +20,7 @@ class apple implements Runnable  {
 
 }
 
-class abc implements Runnable{
+ class abc implements Runnable{
 
 	public void run() {
 		int a[] = { 1, 2, 3, 4, 5 };
@@ -58,6 +58,10 @@ public class ThreadInterface {
 
 }
 
-class dev {
+interface dev {
+	
+}
+
+interface dev2 extends dev{
 	
 }

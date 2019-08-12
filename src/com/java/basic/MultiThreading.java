@@ -20,6 +20,14 @@ class hi extends Thread  {
 	}
 }
 
+
+class abcl{
+
+	public void runnning() {
+		
+	}
+}
+
 class hellow extends Thread{
 	public void run() {
 		for(int i=0;i<5;i++) {
@@ -59,3 +67,9 @@ public class MultiThreading {
 	}
 
 }
+
+class x{
+	
+}
+
+
