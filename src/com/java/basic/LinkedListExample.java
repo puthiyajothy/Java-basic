@@ -14,6 +14,7 @@ public class LinkedListExample {
 		mainclass.add(2);
 		mainclass.add(9);
 		mainclass.add(6);
+	
 
 		System.out.println(mainclass);
 

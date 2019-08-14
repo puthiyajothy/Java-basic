@@ -10,7 +10,7 @@ public class Dowhilebreack {
 				i++;
 				break;
 			}
-			System.out.println(i);
+			System.out.print(" "+ i);
 			i++;
 		}while(i<10);
 		

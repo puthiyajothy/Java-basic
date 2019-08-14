@@ -42,6 +42,7 @@ public class Javahashmap {
 		
 		System.out.println();
 		
+		@SuppressWarnings("unused")
 		int cal []= {3,5,7,8,9,1,3};
 		
 	}
