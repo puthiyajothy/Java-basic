@@ -1,7 +1,7 @@
 package com.java.basic;
 
 public class Anonymouseclass {
-
+	
 	public static void main(String[] args) {
 
 		Cool cool = new Cool() {
@@ -31,3 +31,5 @@ class Cool {
 //	
 //	
 //}
+
+
