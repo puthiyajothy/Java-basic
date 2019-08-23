@@ -2,7 +2,7 @@ package com.java.collection;
 
 import java.util.LinkedHashSet;
 
-public class Linkehash {
+public class Linkedhashmap {
 
 	public static void main(String[] args) {
 
