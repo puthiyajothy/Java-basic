@@ -21,6 +21,9 @@ public class hashset1 {
 			  
 		   System.out.print(" " +itr.next());  
 		  }  
+		  
+		  
+		  
 
 	}
 

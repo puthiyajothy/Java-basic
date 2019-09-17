@@ -10,8 +10,12 @@ public class hashset {
 	
 		
 		 Set<Integer> set = new HashSet<>();
+		 
 //		 List<Set<Integer>>array = Arrays.asList(set);
+		 
+		 
 		 set.addAll(Arrays.asList(new Integer[] {1, 3, 2, 4, 8, 9, 9}));
+		 
 		 Set<Integer> sethas = new HashSet<Integer>();
 		 sethas.addAll(Arrays.asList(new Integer[] {1, 3, 4, 5, 2, 0, 4}));
 		 

@@ -11,6 +11,8 @@ public class Project {
 	
 	private List<Defect> defects=new ArrayList<>();
 
+
+	
 	public void addDefects(Defect defect) {
 		defects.add(defect);
 	}

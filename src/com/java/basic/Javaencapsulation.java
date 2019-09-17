@@ -4,7 +4,7 @@ public class Javaencapsulation {
 
 	public static void main(String[] args) {
 
-		A obj = new A();
+		D obj = new D();
 		obj.setI(5);
 		System.out.println(obj);
 		System.out.println(obj.getI());
@@ -13,7 +13,7 @@ public class Javaencapsulation {
 
 }
 
-class A {
+class D{
 
 	private int i;
 

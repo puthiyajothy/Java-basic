@@ -10,7 +10,7 @@ public class Enumsingleton {
 		
 		Abc obj6 = Abc.INSTANCE;
 		obj6.i=6;
-		obj6.show();
+		obj5.show();
 
 
 	}
@@ -22,6 +22,7 @@ enum Abc { //It Will have private con Already
 	INSTANCE;
 	
 	int i;
+	
 	public void show() {
 		System.out.println(i);
 	}

@@ -3,6 +3,7 @@ package com.java.javaoop;
 
 public class Abstract {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 
 		c obj = new c();

@@ -42,6 +42,7 @@ public class OccurrenceLinkedlist {
 
 		LinkedList<Integer> obj1 = new LinkedList<>();
 		obj1.addAll(obj);
+		@SuppressWarnings("rawtypes")
 		Iterator iter = obj1.descendingIterator();
 		while (iter.hasNext()) {
 			System.out.print(" " + iter.next());

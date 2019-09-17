@@ -2,7 +2,6 @@ package com.java.collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Arraylist {
@@ -32,12 +31,17 @@ public class Arraylist {
 		
 		System.out.println();
 		
+	
+		
 		List<List<Integer>> array = Arrays.asList(obj);
 		
 		System.out.print(array);
 		
 		System.out.println();
 		
+		for(Integer i:obj) {
+			System.out.println(i + " ");
+		}
 		
 	}
 
