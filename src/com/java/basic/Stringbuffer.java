@@ -4,9 +4,9 @@ public class Stringbuffer {
 
 	public static void main(String[] args) {
 
-//		String str="tyronne";
+//		String str="jothi";
 
-		StringBuffer sb = new StringBuffer("tyronne");// StringBuffer is thread safe
+		StringBuffer sb = new StringBuffer("jothi");// StringBuffer is thread safe
 
 		sb.append("Dilu");
 		sb.replace(0, 1, "j");
@@ -21,6 +21,7 @@ public class Stringbuffer {
 		sbl.replace(1, 2, "jo");
 		System.out.println(sbl);
 
+		System.out.println();
 	}
 
 }

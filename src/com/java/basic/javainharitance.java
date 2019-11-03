@@ -15,6 +15,10 @@ class Advcal extends calculator { // sub Class
 		return i - j;
 
 	}
+	
+	public int multi(int i , int j) {
+		return i/j;
+	}
 }
 
 class VeryAdvcal extends Advcal {

@@ -15,10 +15,10 @@ public class Arrayavtdemo {
 //		abc[2][1]=2;
 		
 		
-		Integer abcd []= {4,2,3,6,9,5,2};
-		ArrayList<Integer> ab = new ArrayList<Integer>(Arrays.asList(abcd));
-		ab.remove(4);
-		System.out.print("remove:"+ ab);
+//		Integer abcd []= {4,2,3,6,9,5,2};
+//		ArrayList<Integer> ab = new ArrayList<Integer>(Arrays.asList(abcd));
+//		ab.remove(4);
+//		System.out.print("remove:"+ ab);
 		
 		
 				int count = 1;

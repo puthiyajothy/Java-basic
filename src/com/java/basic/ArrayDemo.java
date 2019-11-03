@@ -63,6 +63,8 @@ public class ArrayDemo {
 			}
 
 		}
+		
+		
 		System.out.println(min);
 
 		System.out.println();

@@ -8,6 +8,12 @@ public class Javaencapsulation {
 		obj.setI(5);
 		System.out.println(obj);
 		System.out.println(obj.getI());
+		
+		
+		
+		F r = new F();
+		r.Test();
+		r.dance();
 
 	}
 
@@ -30,4 +36,25 @@ class D{
 
 	}
 
+}
+
+
+
+class R{
+	public void Test() {
+		System.out.println("Testing");
+	}
+}
+
+class F extends R{
+	public void dance() {
+		System.out.println("Dancing");
+	}
+	
+	public void Test() {
+//		System.out.println("Pakki");
+		super.Test();
+	}
+	
+	
 }

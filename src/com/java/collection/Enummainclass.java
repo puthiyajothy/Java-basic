@@ -13,6 +13,7 @@ public class Enummainclass {
 				System.out.println(set);
 				
 				Iterator<days> iter = set.iterator();
+				
 				while(iter.hasNext()) {
 					System.out.println(iter.next());
 				}
