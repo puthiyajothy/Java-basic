@@ -10,7 +10,6 @@ public class Sorting2 {
 			for(int j=i+1;j<a.length;j++) {
 				if(a[j]<a[min]) {
 					
-					min=j;
 				}
 			}
 			 int t=a[min];
